@@ -1,6 +1,9 @@
 kilogramos = float(input("Ingrese su peso en Kilógramos\n"))
 estatura = float(input ("Ingrese su estatura en centímetros\n"))/100 #transforma centímetros a metros
 
+if estatura <=0:
+    print("Error: la estatura no puede ser igual o menor que cero")
+    
 imc = kilogramos /(estatura * estatura)
 print(f"Tu IMC es de {round(imc,2)} [Kg/m2]")
 
