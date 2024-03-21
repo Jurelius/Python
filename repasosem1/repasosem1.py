@@ -26,3 +26,11 @@ apellido = 'Santana'
 # Interpolación
 print(f"Mi nombre es {nombre} {apellido}")
 """
+prefijo = ['La','El','La','El']
+frutas = ['manzana', 'platano','frutilla','tomate']
+colores = ['verde','amarillo','roja','rojo']
+for p, fruta, color in zip(prefijo, frutas, colores):
+    print(f'{p} {fruta} es de color {color}')
+
+
+
