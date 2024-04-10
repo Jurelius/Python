@@ -6,3 +6,4 @@ def sumar(x,y):
         y (int): segundo numero
     """
     print(f"El resultado de la suma es {x + y}")
+    
