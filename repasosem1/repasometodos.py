@@ -74,4 +74,6 @@ print(diccionario_b)
 diccionario_a.update(diccionario_b)
 print(diccionario_a)
 
-
+computador = {'notebook': 489990, 'tablet': 120000, 'cargador': 12400}
+computador.keys()
+print(computador.keys())
